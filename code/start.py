@@ -65,9 +65,10 @@ def run_kernel_ridge_regression():
 if __name__ == '__main__':
 
     #create a ridge regression Model, load the data and write the predicted data to the Yte.csv file
-#    run_kernel_ridge_regression()
+    run_kernel_ridge_regression()
     
-    run_svm_kernel()
+    #create a SVM model and train the model using QP Solver and Spectrum Kernel
+#    run_svm_kernel()
     
     
     
